@@ -9,8 +9,8 @@
 
     <center>
         <form action="">
-            <label for="fname">National Dex:</label>
-            <input type="text" id="fname" name="fname"><br><br>
+            <label for="nationaldex">National Dex:</label>
+            <input type="number" id="nationaldex" name="nationaldex"><br><br>
 
             <input type="radio" id="GEN1" name="fav_language" value="GEN1">
             <label for="GEN1">GEN 1</label>
@@ -40,9 +40,52 @@
             <input type="file" value="file"><br><br>
 
             <label for="type1">Type 1:</label>
-            <input type="text" id="type1" name="type1">
+            <input list="type11" id="type1" name="type1">
+            <datalist id="type11">
+            <option value="Normal"></option>
+            <option value="Fire"></option>
+            <option value="Water"></option>
+            <option value="Electric"></option>
+            <option value="Grass"></option>
+            <option value="Ice"></option>
+            <option value="Fighting"></option>
+            <option value="Poison"></option>
+            <option value="Ground"></option>
+            <option value="Flying"></option>
+            <option value="Psychic"></option>
+            <option value="Bug"></option>
+            <option value="Rock"></option>
+            <option value="Ghost"></option>
+            <option value="Dragon"></option>
+            <option value="Dark"></option>
+            <option value="Steel"></option>
+            <option value="Fairy"></option>
+            </datalist>
+
             <label for="type2">Type 2:</label>
-            <input type="text" id="type2" name="type2"><br><br>
+            <input list="type22" id="type2" name="type2">
+            <datalist id="type22">
+            <option value="Normal"></option>
+            <option value="Fire"></option>
+            <option value="Water"></option>
+            <option value="Electric"></option>
+            <option value="Grass"></option>
+            <option value="Ice"></option>
+            <option value="Fighting"></option>
+            <option value="Poison"></option>
+            <option value="Ground"></option>
+            <option value="Flying"></option>
+            <option value="Psychic"></option>
+            <option value="Bug"></option>
+            <option value="Rock"></option>
+            <option value="Ghost"></option>
+            <option value="Dragon"></option>
+            <option value="Dark"></option>
+            <option value="Steel"></option>
+            <option value="Fairy"></option>
+            </datalist>
+
+
 
             <label for="evf">Evolves From:</label>
             <input type="text" id="evf" name="evf">
@@ -80,7 +123,7 @@
                 <td>Generation 9</td>
                 <td>Klyn</td>
                 <td><img src="DSC_0110.jpg" width="250"></td>
-                <td bgcolor="#ffff4d">Light</td>
+                <td bgcolor="#ffff4d">Electric</td>
                 <td bgcolor="#660066">Dark</td>
                 <td>-</td>
                 <td>Quincy</td>
